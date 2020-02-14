@@ -1,0 +1,51 @@
+.header {
+  background: transparent;
+  position: fixed;
+  box-shadow: none;
+}
+.header .logo {
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+  display: block;
+}
+
+.single-congress__banner-content h1 {
+  max-width: 560px;
+  font-size: 48px;
+  margin-top: 1.5em;
+}
+
+.single-congress__description {
+  font-size: 25px !important;
+  max-width: 450px !important;
+}
+
+.footer {
+  margin-top: 2em;
+}
+
+.footer:before {
+  background: linear-gradient(#680606f2, #680606f2), url() center 40%/cover no-repeat;
+}
+
+.single-teacher:after {
+  border: 2px solid #680606;
+}
+
+.single-teacher h1:before {
+  background: #680606;
+}
+
+.single-teacher picture:before {
+  border: 5px solid #680606;
+}
+
+:root {
+  --bg-congress: #680606;
+}
+
+.bg-first-medium {
+  --color: var(--bg-congress);
+}
+
+/*# sourceMappingURL=style-custom.css.map */
