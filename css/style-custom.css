@@ -14,10 +14,20 @@
   font-size: 48px;
   margin-top: 1.5em;
 }
+@media (max-width: 500px) {
+  .single-congress__banner-content h1 {
+    font-size: 25px;
+  }
+}
 
 .single-congress__description {
-  font-size: 25px !important;
+  font-size: 20px !important;
   max-width: 450px !important;
+}
+@media (max-width: 500px) {
+  .single-congress__description {
+    font-size: 18px;
+  }
 }
 
 .footer {
@@ -46,6 +56,29 @@
 
 .bg-first-medium {
   --color: var(--bg-congress);
+}
+
+.congress-inscription {
+  text-align: center;
+}
+
+.congress-inscription h2 {
+  margin-top: 10px;
+  font-size: 30px;
+  padding: 0 1em;
+}
+.congress-inscription h2 strong {
+  font-size: 40px;
+}
+@media (max-width: 500px) {
+  .congress-inscription h2 strong {
+    font-size: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .congress-inscription h2 {
+    font-size: 20px;
+  }
 }
 
 /*# sourceMappingURL=style-custom.css.map */
