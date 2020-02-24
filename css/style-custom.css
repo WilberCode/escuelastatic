@@ -85,5 +85,11 @@
   box-shadow: 0 0 0 1px #fff;
   padding: 10px 18px;
 }
+.btn-brochure svg {
+  font-size: 20px !important;
+}
+.btn-brochure-face {
+  margin-left: 6px;
+}
 
 /*# sourceMappingURL=style-custom.css.map */
